@@ -1,0 +1,3429 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<link rel="shortcut icon" type="image/x-icon" href="DAnimeWorld.jpg">
+
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+
+<style>
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: red;
+}
+
+.topnav a.active {
+  background-color:  #ff944d;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+</style>
+
+<!-- data-ad-client=ca-pub-3473224045103342 -->
+
+<div class='Logo'>
+<a href='Inicio.html'><img src="DAnimeWorld.jpg" width="185" height="´100"/></a>
+</div>
+<ul class="Menu">
+  <li><a href='Inicio.html'>Inicio</a></li>
+  <li><a href='Anime.html'>Anime</a></li>
+  <li><a href='Latino.html'>Latino</a></li>
+  <li><a href='Sub Español Latino.html'>Sub Español Latino</a></li>    
+  <li><a href='Donghua.html'>Donghua</a></li>
+  <li style="float:right"><a class="active" href='Acerca de.html'>Acerca de</a></li>
+<div class='AFixed'>
+<input hidden='hidden' id='BtnMenu' type='checkbox'/>
+<nav class='CX Row'>
+<input hidden='hidden' id='Hd-Search' type='checkbox'/>
+<div class='Search'>  
+  <form action='/search' id='search-form' method='get' onsubmit=''>
+    <div class='row'>
+      <input autocomplete='off' id='q' name='q' placeholder='Buscar...' required='' type='text'/>
+      <button><i class='fa-search'></i></button>
+  </from>
+</div>
+ </ul>
+
+<div class='Body'>
+<div class='Container'>
+<div class='Title Page fa-star B12'>
+<h1 style='color:#bbb;font-weight: bolder;'>Lista completa de Animes: Latino</h1>
+<hr style='height:5px;background-color:#fff;'/>
+</div>
+</div>
+</div>
+
+<!-- Button trigger modal -->
+<button class='btn btn-warning' data-bs-target='#staticBackdrop' data-bs-toggle='modal' type='button'>
+<i aria-hidden='true' class='fa fa-tags fs-15'></i><b> Filtrar Animes por Género</b>
+</button>
+
+<!-- Modal -->
+<div aria-hidden='true' aria-labelledby='staticBackdropLabel' class='modal fade' data-bs-backdrop='static' data-bs-keyboard='false' id='staticBackdrop' tabindex='-1'>
+<div class='modal-dialog modal-dialog-scrollable'>
+<div class='modal-content' style='background-color:#222'>
+<div class='modal-header'>
+<h5 class='modal-title' id='staticBackdropLabel'>
+<div class='Body'>
+<div class='Container'>
+<div class='Title Page fa-star B12'>
+<h1 style='color:#fff;font-weight: bolder;'>Filtrar Animes por Género</h1>
+</div>
+</div>
+</div>
+</h5>
+<button aria-label='Close' class='btn-close' data-bs-dismiss='modal' type='button'></button>
+</div>
+<div class='modal-body'>
+<nav class='Nvgnrs'>
+<a href='https://DAnimeWorld.blogspot.com/'>Todo</a>
+<a href='/search/label/Finalizado?&max-results=24'>Estreno</a>
+<a href='/search/label/Finalizado?&max-results=24'>Finalizado</a>
+<a href='/search/label/Latino?&max-results=24'>Español Latino</a>
+<a href='/search/label/Sub Español Latino?&max-results=24'>Sub Español Latino</a>
+<a href='/search/label/Donghua?&max-results=24'>Donghua</a>
+<A href='/search/label/Sin Censura?&max-results=24'>Sin censura</a>
+<a href='/search/label/Acción?&max-results=24'>Acción</a>
+<a href='/search/label/Artes Marciales?&max-results=24'>Artes Marciales</a>
+<a href='/search/label/Aventura?&max-results=24'>Aventura</a>
+<a href='/search/label/Ciencia Ficción?&max-results=24'>Ciencia Ficción</a>
+<a href='/search/label/Comedia?&max-results=24'>Comedia</a>
+<a href='/search/label/Demencia?&max-results=24'>Demencia</a>
+<a href='/search/label/Demonios?&max-results=24'>Demonios</a>
+<a href='/search/label/Deportes?&max-results=24'>Deportes</a>
+<a href='/search/label/Drama?&max-results=24'>Drama</a>
+<a href='/search/label/Ecchi?&max-results=24'>Ecchi</a>
+<a href='/search/label/Escolares?&max-results=24'>Escolares</a>
+<a href='/search/label/Espacial?&max-results=24'>Espacial</a>
+<a href='/search/label/Fantasía?&max-results=24'>Fantasía</a>
+<a href='/search/label/Harem?&max-results=24'>Harem</a>
+<a href='/search/label/Histórico?&max-results=24'>Histórico</a>
+<a href='/search/label/Isekai?&max-results=24'>Isekai</a>
+<a href='/search/label/Juego?&max-results=24'>Juego</a>
+<a href='/search/label/Magia?&max-results=24'>Magia</a>
+<a href='/search/label/Mecha?&max-results=24'>Mecha</a>
+<a href='/search/label/Milfs?&max-results=24'>Milfs</a>
+<a href='/search/label/Militar?&max-results=24'>Militar</a>
+<a href='/search/label/Misterio?&max-results=24'>Misterio</a>
+<a href='/search/label/Música?&max-results=24'>Música</a>
+<a href='/search/label/Parodia?&max-results=24'>Parodia</a>
+<a href='/search/label/Policía?&max-results=24'>Policía</a>
+<a href='/search/label/Psicológico?&max-results=24'>Psicológico</a>
+<a href='/search/label/Recuentos de la Vida?&max-results=24'>Recuentos de la Vida</a>
+<a href='/search/label/Romance?&max-results=24'>Romance</a>
+<a href='/search/label/Seinen?&max-results=24'>Seinen</a>
+<a href='/search/label/Shoujo?&max-results=24'>Shoujo</a>
+<a href='/search/label/Shounen?&max-results=24'>Shounen</a>
+<a href='/search/label/Sobrenatural?&max-results=24'>Sobrenatural</a>
+<a href='/search/label/Súper poderes?&max-results=24'>Súper poderes</a>
+<a href='/search/label/Suspenso?&max-results=24'>Suspenso</a>
+<a href='/search/label/Terror?&max-results=24'>Terror</a>
+<a href='/search/label/Vampiros?&max-results=24'>Vampiros</a>
+<a href='/search/label/Yuri?&max-results=24'>Yuri</a>
+</nav>
+</div>
+<div class='modal-footer'>
+<button class='btn btn-warning' data-bs-dismiss='modal' type='button'><b>Cerrar Ventana</b></button>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Posts -->
+<div class='section' id='Blog'><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='Body'>
+<div class='Container'>
+<main class='Main'>
+<ul class="ListAnimes AX Rows A03 C02 D02">
+<div class='Body'>
+<div class='Container'>
+<h1 style='color:#bbb;font-weight: bolder;'>1-9</h1>
+<hr style='height:5px;background-color:#fff;'/>
+<li>
+<article class="Anime alt B">
+<a href="Seleccion de capitulos de 86 Eighty-Six Español Latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://pbs.twimg.com/media/Ewcl7AEVkA02Ek0.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">86: Eighty-Six Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="Seleccion de capitulos de 100-man no Inochi no Ue ni Ore wa Tatteiru Temporada 1 Español Latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://www.ruru-berryz.com/wp-content/uploads/2020/08/ANIME-AUTOMNE-2020-Key-Visual-MoePop-Ruru-Berryz-1.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">100-man no Inochi no Ue ni Ore wa Tatteiru Temporada 1 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="Seleccion de capitulos de 100-man no Inochi no Ue ni Ore wa Tatteiru Temporada 2 Español Latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-gxZrrMsZG_Y/YPbnPx_POJI/AAAAAAAADRU/v70G5MoYPUECa9C8rS_PBOj5BNUC0bkywCLcBGAsYHQ/w283-h400/Descargar-100-man-no-Inochi-no-Ue-ni-Ore-wa-Tatteiru-Temporada-2-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpeg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">100-man no Inochi no Ue ni Ore wa Tatteiru Temporada 2 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+</ul>
+</main>
+</div>
+</div>
+</div></div>
+
+<!-- Posts -->
+<div class='section' id='Blog'><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='Body'>
+<div class='Container'>
+<main class='Main'>
+<ul class="ListAnimes AX Rows A03 C02 D02">
+<div class='Body'>
+<div class='Container'>
+<h1 style='color:#bbb;font-weight: bolder;'>A</h1>
+<hr style='height:5px;background-color:#fff;'/>
+<li>
+<article class="Anime alt B">
+<a href="Seleccion de capitulos de Adachi to Shimamura Español Latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-tquN02mbkfs/YUFX8uv4d7I/AAAAAAAAEjs/xgvmJmpgXJwPgsr4N06s3N1RHqa5i1tBACLcBGAsYHQ/w283-h400/Descargar-Adachi-to-Shimamura-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Adachi to Shimamura Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="Seleccion de capitulos de Ajin Semi-Humano Temporada 1 Español Latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://pbs.twimg.com/media/EWkkluRXgAIBz4H.png" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Ajin Temporada 1 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="Seleccion de capitulos de Ajin Semi-Humano Temporada 2 Español Latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/hc_1440x810/public/media/image/2016/09/ajin-semihumano_0.jpg?itok=PngqaeG2" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Ajin Temporada 2 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="Seleccion de capitulos de Akudama Drive Español Latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEiJhKzGwklKW5EvuJGJd6e--QGL8kSk5QP6brAUeqGIeQJAStclLydhpmdr8YFIKYVGGlFlHJTktL_XMEVmgIx2dc5wzaB8MFJjDmlzcWs2c2CV0POZrCQ61sKz7OeWh8spG_AlUc9bLmOYhz30hHVkdkWvvatZqYassgyyBSg6k-s-CZQhCZ5rGU5q=w454-h640" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Akudama Drive Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="Seleccion de capitulos de Arifureta Shokugyou de Sekai Saikyou Temporada 1 Español Latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEhLj17NVKrH3hfBZbzgcRzJfhLlt-jN6ADscHCeyBztAjOPeVEiT0ft_Ctub-UTkxHQnkSt6OZSOv4XvdUGJMK4UDiuzUnZSr6MwoQ-O1JNVJpSjdvt1korjdb-keV9khTJ9QkaULHDI1gWZygABLp204GejI3Pmjy_ji8vA3TtCyqwC7BWV349Qm4U=w426-h640" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Arifureta Shokugyou de Sekai Saikyou Temporada 1 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+</ul>
+</main>
+</div>
+</div>
+</div></div>
+
+<!-- Posts -->
+<div class='section' id='Blog'><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='Body'>
+<div class='Container'>
+<main class='Main'>
+<ul class="ListAnimes AX Rows A03 C02 D02">
+<div class='Body'>
+<div class='Container'>
+<h1 style='color:#bbb;font-weight: bolder;'>B</h1>
+<hr style='height:5px;background-color:#fff;'/>
+<li>
+<article class="Anime alt B">
+<a href="Seleccion de capitulos de Beastars Temporada 1 Español Latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://t1.daumcdn.net/thumb/R720x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/8L9S/image/kMrP_97oyHjbSvqX7ULncSIjlfs.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Beastars Temporada 1 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="Seleccion de capitulos de Beastars Temporada 2 Español Latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-ediHZlS9EnM/YP4cfgod3JI/AAAAAAAADvE/Zny6qlOpHW8OHMk_j9qbO7CTM1avDmnJgCLcBGAsYHQ/w284-h400/Descargar-Beastars-Temporada-2-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Beastars Temporada 2 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/08/black-clover-audio-español-latino_01994701075.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-c0yRaRQ2AtI/YS6RyIUIFBI/AAAAAAAAEMQ/vi1-1jave_kWNjiH3DHpJAWnKZ6bpNhAwCLcBGAsYHQ/w265-h400/Descargar-Black-Clover-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Black Clover (TV) Audio Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+
+<li>
+<article class="Anime alt B">
+<a href="Seleccion de capitulos de Boku no Hero Academia Temporada 1 Español Latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-_sSx3BA_JyY/YIcE27Je7-I/AAAAAAAAA_s/Xe5kZqd2R6sRObjZPNTbM-qO8f8zBQU3gCLcBGAsYHQ/s16000/Descargar-Boku-no-Hero-Academia-Temporada-1-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Boku no Hero Academia Temporada 1 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="Seleccion de capitulos de Boku no Hero Academia Temporada 2 Español Latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://up.gc-img.net/post_img/2017/06/wB6ZnM2oJ24Ye1h_Aqsf3_18.jpeg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Boku no Hero Academia Temporada 2 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="Seleccion de capitulos de Boku no Hero Academia Temporada 3 Español Latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://images-na.ssl-images-amazon.com/images/I/91ykUqXID9L._AC_SX679_.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Boku no Hero Academia Temporada 3 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="Seleccion de capitulos de Boku no Hero Academia Temporada 4 Español Latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://ilarge.lisimg.com/image/17279964/740full-my-hero-academia-poster.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Boku no Hero Academia Temporada 4 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="Seleccion de capitulos de Boku no Hero Academia Temporada 5 Español Latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://pbs.twimg.com/media/EpoRW3VXEAcZkhJ.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Boku no Hero Academia Temporada 5 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/04/boku-no-hero-academia-the-movie-futari-no-hero-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-jgxv11dd39Q/YIhPI1evCnI/AAAAAAAABBU/hCyxbbCquOwTxHY7Co3YGwC7-6G9gY00QCLcBGAsYHQ/s16000/Descargar-Boku-no-Hero-Academia-The-Movie-Futari-no-Hero-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type movie">Película</span>
+</div>
+<h2 class="Title" style="color:#fff">Boku no Hero Academia The Movie: Futari no Hero Español Latino</h2>
+</a>
+</article>
+</li>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/04/boku-no-hero-academia-the-movie-2-heroes-rising-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://images-cdn.9gag.com/photo/agAB5qn_700b.jpg" width="385" height="200">
+</figure>
+<span class="Type movie">Película</span>
+</div>
+<h2 class="Title" style="color:#fff">Boku no Hero Academia The Movie 2: Heroes:Rising Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/04/boku-no-hero-academia-ikinokore-kesshi-no-survival-kunren-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-wmMijXN0Mk8/YIhl5oODIeI/AAAAAAAABB0/hfW56Odf-2sEtQhI8u5FCTDd_a73WxQZQCLcBGAsYHQ/s16000/Descargar-Boku-no-Hero-Academia-Ikinokore-Kesshi-no-Survival-Kunren-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type ova">Ova</span>
+</div>
+<h2 class="Title" style="color:#fff">Boku no Hero Academia Ikinokore Kesshi no Survival Kunren Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/08/btooom-español-latino_0440874746.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-njOh-Dda5zQ/YS6adWytfcI/AAAAAAAAENM/red-Mvc03X40q8p7fQXgZuFwfMRUPLLlACLcBGAsYHQ/w266-h400/Descargar-Btooom-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Btooom Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+</ul>
+</main>
+</div>
+</div>
+</div></div>
+
+<!-- Posts -->
+<div class='section' id='Blog'><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='Body'>
+<div class='Container'>
+<main class='Main'>
+<ul class="ListAnimes AX Rows A03 C02 D02">
+<div class='Body'>
+<div class='Container'>
+<h1 style='color:#bbb;font-weight: bolder;'>C</h1>
+<hr style='height:5px;background-color:#fff;'/>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/07/captain-tsubasa-2018-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-j_-6tME2vjQ/YQCLjPEE-kI/AAAAAAAAD2A/APQWpXtwfegTYrYLzhC7WvXUHXBe0mVcACLcBGAsYHQ/w283-h400/Descargar-Captain-Tsubasa-2018-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Captain Tsubasa (2018) Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/castlevania-temporada-1-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-UXMNeJVYpH4/YKrseEvmUNI/AAAAAAAABtQ/PIRFcILS88MjbnZhVcAtz7nbR1A9irI3ACLcBGAsYHQ/s16000/Descargar-Castlevania-Temporada-1-Sub-Espanol-Latino-Online-RivAnimation.png" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Castlevania Temporada 1 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/castlevania-temporada-2-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-dcgK0iTYLTw/YKrxNfXT84I/AAAAAAAABtk/pd-jVxslz18gtI-Rra0Jw41CapU7WDJzQCLcBGAsYHQ/s16000/Descargar-Castlevania-Temporada-2-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Castlevania Temporada 2 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/castlevania-temporada-3-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-rzPy_Rmvc7w/YKr3tvjpsrI/AAAAAAAABuo/WBgsQYuQPdooPFm0eJv5NZTSJcYt8IRSACLcBGAsYHQ/s16000/Descargar-Castlevania-Temporada-3-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Castlevania Temporada 3 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/castlevania-temporada-4-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-buuPm7yeKLk/YKr6539rJZI/AAAAAAAABu4/5RgkjaDEEq0BuNNu-g2xqhk26gTuoQmoACLcBGAsYHQ/s16000/Descargar-Castlevania-Temporada-4-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Castlevania Temporada 4 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/09/cowboy-bebop-español-latino_01940549576.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-sZ6wWllAO_Q/YTIn3f9xBwI/AAAAAAAAEQg/nAgSLVZgufog0xwl_XtHX8tHOPsLE3ZIQCLcBGAsYHQ/w280-h400/Descargar-Cowboy-Bebop-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Cowboy Bebop Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+</ul>
+</main>
+</div>
+</div>
+</div></div>
+
+<!-- Posts -->
+<div class='section' id='Blog'><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='Body'>
+<div class='Container'>
+<main class='Main'>
+<ul class="ListAnimes AX Rows A03 C02 D02">
+<div class='Body'>
+<div class='Container'>
+<h1 style='color:#bbb;font-weight: bolder;'>D</h1>
+<hr style='height:5px;background-color:#fff;'/>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/06/darling-in-franxx-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-tTD2ZiQG6iQ/YP4bMG6eCII/AAAAAAAADus/zzJbXgNSRsgZ7w0-rcRsYSMLHGSci8XcgCLcBGAsYHQ/w266-h400/Descargar-Darling-in-the-FranXX-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.png" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Darling in the FranXX Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/07/death-parade-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-qPWQGddhIlE/YQCUkKjzZhI/AAAAAAAAD2M/tqlsqMprspE6a_nIa7JakuQ_Z9yFeFmxQCLcBGAsYHQ/w283-h400/Descargar-Death-Parade-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Death Parade Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/07/deatte-5-byou-de-battle-español-latino_01828434707.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-uxDgTdLe-3g/YPbpW4zGxVI/AAAAAAAADSI/hC_VbZ_zzekPe8wyUNaMBFRn2xSUUsiggCLcBGAsYHQ/w276-h400/Descargar-Deatte-5-byou-de-Battle-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.png" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Deatte 5-byou de Battle Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/deca-dence-español-latino_0330095075.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-jkEJ0NXwO98/YV5Ww4m8zfI/AAAAAAAAEx4/Sb9xiulyI2Yx6vAGG4XLPL9uUHgWjIgGwCLcBGAsYHQ/w266-h400/Descargar-Deca-Dence-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Deca-Dence Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/deep-insanity-the-lost-child-español-latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEiTK3vF6_t2vb1bANouMFTPJWw13E_b55g518CKTOSfDohBYMiIHiQ8O1_wbUoKUBhZvwdg1f3YK3AjT1cBVHdFZxI6XnPzslSX2rRZ3HjZztCuvigBVq6_8bzt7nX2dgatUUMNWAdlxcWoFD4OsNGWMlkltzCdruwNx5ldNCdKCCkKxIk-icPknFOu=w450-h640" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Deep Insanity: The Lost Child Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2020/12/dr-stone-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://larepublica.pe/resizer/MGieNfA_U4WI_gmvLWpve6hfJCw=/538x0/top/larepublica.pe/resizer/3hAENUWqq22Ls_LvPCXvG4I3HYg=/538x0/top/smart/arc-anglerfish-arc2-prod-gruporepublica.s3.amazonaws.com/public/VN4ZH5GLSZF2TMXHFWOOHYEAKY.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Dr. Stone Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/01/dr-stone-stone-wars-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://otakulevel10.fr/wp-content/uploads/2020/10/Dr.-Stone-saison-2-Stone-Wars-OL10-667x900.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Dr. Stone: Stone Wars Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/11/dragon-ie-wo-kau-español-latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEitFbYDjBXHr1yNOkZhq8rXRqZ10aGBjVvHKV9LdkRlKQlnVz67Et_WXdiMYXgLWnExVyipIuwpLqU9GkYvFkvYnlE2B2saLyX1cZI9Kb8lnjKozFAb6uHPHq5xUkYD5XOmgg8Hvu78Pvnt_7nPh-_ZqmBYzM_gjlR-Nv0ld7-aH_oKryVuR0GAI7q1=w456-h640" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Dragon, Ie wo Kau Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+</ul>
+</main>
+</div>
+</div>
+</div></div>
+
+<!-- Posts -->
+<div class='section' id='Blog'><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='Body'>
+<div class='Container'>
+<main class='Main'>
+<ul class="ListAnimes AX Rows A03 C02 D02">
+<div class='Body'>
+<div class='Container'>
+<h1 style='color:#bbb;font-weight: bolder;'>E</h1>
+<hr style='height:5px;background-color:#fff;'/>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/07/edens-zero-espanol-latino_01224529863.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-fJNZhKSnXxA/YQNePrBeWFI/AAAAAAAAD6U/xqn-QeoZfA8STXtEXLgG6AvHZ7ZHtdKFQCLcBGAsYHQ/w283-h400/Descargar-Edens-Zero-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpeg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Edens Zero Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/11/eizouken-ni-wa-te-wo-dasu-na-espanol-latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEivnbYvYKaRhTuI-lNf8yD-5QwBTFiuDm7-AYev9e1atlEQMjsUaNOPmZzXrkD67FAebLwmfp8GkWndLNFAKnN5Ew06ah6WQoNDMafvKcHpgnj22leQnuUnwV8QF7xs9Qoaf8hi08vJRr8ZQqnOsoemJK_pnr1X-TTVLP8zaVQOWi7G-CLx-f3woTcH=w426-h640" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Eizouken ni wa Te wo Dasu na! Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/07/enen-no-shouboutai-espanol-latino_01902326352.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-yEY1kWHZsTM/YP9s8toa8vI/AAAAAAAAD08/Phpr-bwIptEi8UDCnWe74hornbwvI1dPQCLcBGAsYHQ/w288-h400/Descargar-Enen-no-Shoubouta-Fire-Force-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpeg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Enen no Shouboutai (Fire Force) Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/07/enen-no-shouboutai-ni-no-shou-latino_0433295204.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-aNYqrZyK4uQ/YP9ylYBn_CI/AAAAAAAAD1Q/mdyTTtSR2Po3GoeFJpKGpFknDA1zp4tkwCLcBGAsYHQ/w266-h400/Descargar-Enen-no-Shoubouta-Ni-no-Shou-Fire-Force-Temporada-2-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Enen no Shouboutai: Ni no Shou (Fire Force 2) Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+</ul>
+</main>
+</div>
+</div>
+</div></div>
+
+<!-- Posts -->
+<div class='section' id='Blog'><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='Body'>
+<div class='Container'>
+<main class='Main'>
+<ul class="ListAnimes AX Rows A03 C02 D02">
+<div class='Body'>
+<div class='Container'>
+<h1 style='color:#bbb;font-weight: bolder;'>F</h1>
+<hr style='height:5px;background-color:#fff;'/>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/fruits-basket-temporada-1-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-BVMJdRGMRrc/YKqskQuTeoI/AAAAAAAABrs/3g7_ffEPql0K53g5nClwNJGWG5sCwSYogCLcBGAsYHQ/s16000/Descargar-Fruits-Basket-Temporada-1-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Fruits Basket Temporada 1 (2019) Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/fruits-basket-temporada-2-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-z7gNb5aoFJQ/YKrfr_p1gAI/AAAAAAAABsU/qc6yNjlxtysnxiEP2GybmyniGtF6katNACLcBGAsYHQ/s16000/Descargar-Fruits-Basket-Temporada-2-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Fruits Basket Temporada 2 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/fruits-basket-temporada-3-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-w7qbYY7WGys/YKrlx1Jv7oI/AAAAAAAABsw/7OWvNrWZeDY7r9KnQEe0Qv3BQIT3d_EcgCLcBGAsYHQ/s16000/Descargar-Fruits-Basket-The-Final-Temporada-3-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Fruits Basket Temporada 3 (The Final) Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/fullmetal-alchemist-brotherhood-español-latino_0411610782.html" width="385" height="200">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-USc2Jjyj17o/YV5Zm_T6pSI/AAAAAAAAEyQ/4z1RKyYWFs0EvfzNgnOCAtqsTZpEMSBGgCLcBGAsYHQ/w284-h400/Descargar-Fullmetal-Alchemist-Brotherhood-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Fullmetal Alchemist: Brotherhood Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/04/fumetsu-no-anata-e-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-bfZ_-VWKRrQ/YHhew7y8C5I/AAAAAAAAA3k/Oae_kfPssvEEcl5fXg7if4xqlwB3gftagCLcBGAsYHQ/s16000/Descargar-Fumetsu-no-Anata-e-Espa%25C3%25B1ol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Fumetsu no Anata e Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+</ul>
+</main>
+</div>
+</div>
+</div></div>
+
+<!-- Posts -->
+<div class='section' id='Blog'><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='Body'>
+<div class='Container'>
+<main class='Main'>
+<ul class="ListAnimes AX Rows A03 C02 D02">
+<div class='Body'>
+<div class='Container'>
+<h1 style='color:#bbb;font-weight: bolder;'>G</h1>
+<hr style='height:5px;background-color:#fff;'/>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/07/genjitsu-shugi-yuusha-no-oukoku-saikenki-español-latino_0470763538.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-vJtHm0tUVHI/YPcHCEHVVFI/AAAAAAAADWM/SJ5d5DSuUtwFoJ-tJ1amRfLO07-3IqiqACLcBGAsYHQ/w283-h400/Descargar-Genjitsu-Shugi-Yuusha-no-Oukoku-Saikenki-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.png" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Genjitsu Shugi Yuusha no Oukoku Saikenki Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/11/gleipnir-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEjV87YlanPFoHbUJAxkBkeG7tNPluv5qi2ijGqKu_QStpGk-YW00-w1QnbV7JYxoyLqDbcJAauTPWVfNKLOuf76ZO8b1wmvz8YxSpdX4Tw7bLPVj_c8LpZ1HdwT3TKR68rXYKeUb3x9xnSVY8i4J9QEt0h25ZistN0hR5PLjQZLBwtDktntZSt__kD6=w426-h640" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Gleipnir Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/07/goblin-slayer-español-latino_01824236243.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-vLVAaJGzqXc/YPzMAQ7R0hI/AAAAAAAADs8/bSf7BBP4qIAVLp8k3SoJQuDAAirxtzr6QCLcBGAsYHQ/w266-h400/Descargar-Goblin-Slayer-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Goblin Slayer Audio Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/06/godzilla-singular-point-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-yossDdaRYJw/YPxPTfB-AQI/AAAAAAAADso/UY86ggSPqNkK2KGKsZiT5VGhYaGglId2ACLcBGAsYHQ/w281-h400/Descargar-Godzilla-Singular-Point-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Godzilla Singular Point Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/04/gokushufudou-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-su-wFRb-CVM/YT6cUs707cI/AAAAAAAAEgo/VN_N7P_hCrQJLh5uk6WDtMY0MXmK4dGDgCLcBGAsYHQ/w276-h400/Descargar-Gokushufudou-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Gokushufudou Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/gyakuten-sekai-no-denchi-shoujo-español-latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEiRqG_ZKGUjXXRrmevFosnxKZIfqNsOAD9eP7MyU-Md0wy-Q0SHf6VWATUBsHkCGJlJ4zX_rEanMMWIShgDnrgmkAJ-jxzKcZMl7OFQXf-LhaQFgdDaXUINwbWR-oKTLEuJ2vwrId14OmUmVaaPnKHMEtB2yQlYbBjyKDl8npHQWrj5nOFrG7Ck679C=w452-h640" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Gyakuten Sekai no Denchi Shoujo Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+</ul>
+</main>
+</div>
+</div>
+</div></div>
+
+<!-- Posts -->
+<div class='section' id='Blog'><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='Body'>
+<div class='Container'>
+<main class='Main'>
+<ul class="ListAnimes AX Rows A03 C02 D02">
+<div class='Body'>
+<div class='Container'>
+<h1 style='color:#bbb;font-weight: bolder;'>H</h1>
+<hr style='height:5px;background-color:#fff;'/>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2020/12/hanyou-no-yashahime-sengoku-otogizoushi-temporada-1-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-s8pKsOKDbYE/YTLksuZw0pI/AAAAAAAAESA/q7p6NYcPXGAVvbvZLH_S0jcVFFPYNYsHwCLcBGAsYHQ/w296-h400/Descargar-Hanyou-no-Yashahime-Sengoku-Otogizoushi-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.png" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Hanyou no Yashahime: Sengoku Otogizoushi Temporada 1 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/hanyou-no-yashahime-sengoku-otogizoushi-temporada-2-español-latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEjHswwSQAiSHlmQucX1nVs4EoPL8qXXJqS5DlEpA0QmOr8TLPQLCievpflVE95XCVjrdRjENd5uYoiE5bZQpXirrYNv65HUSss1kcHVQgPYYWifwzWiaKkjyln0aNoYmYDFQ5YgPihiwCqD1Z99MIOtdD3O8wfKvhH4LVzPlSzc_RLJwHTdxLBfCzdb=s16000" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Hanyou no Yashahime: Sengoku Otogizoushi Temporada 2 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/hero-mask-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-mR77rdYnpE8/YJGXul9Q44I/AAAAAAAABGE/Ui4hXEYwr4Utss12jUBq_sCN4srdoPqSgCLcBGAsYHQ/s16000/Descargar-Hero-Mask-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Hero Mask Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/08/high-school-dxd-temporada-1-español-latino_01048706635.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-xTgCY82MaL4/YS2SviSXDNI/AAAAAAAAEL4/Zein69jTHfgLnFOLGjQWokG6AYR2--aHQCLcBGAsYHQ/w284-h400/Descargar-High-School-DxD-Temporadas-1-al-4-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">High School DxD Temporada 1 Español Latino (Fandub)</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/08/high-school-dxd-temporada-2-español-latino_01048706635.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-xTgCY82MaL4/YS2SviSXDNI/AAAAAAAAEL4/Zein69jTHfgLnFOLGjQWokG6AYR2--aHQCLcBGAsYHQ/w284-h400/Descargar-High-School-DxD-Temporadas-1-al-4-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">High School DxD Temporada 2 (New) Español Latino (Fandub)</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/08/high-school-dxd-temporada-3-español-latino_01048706635.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-xTgCY82MaL4/YS2SviSXDNI/AAAAAAAAEL4/Zein69jTHfgLnFOLGjQWokG6AYR2--aHQCLcBGAsYHQ/w284-h400/Descargar-High-School-DxD-Temporadas-1-al-4-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">High School DxD Temporada 3 (Born) Español Latino (Fandub)</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/08/high-school-dxd-temporada-4-español-latino_01048706635.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-xTgCY82MaL4/YS2SviSXDNI/AAAAAAAAEL4/Zein69jTHfgLnFOLGjQWokG6AYR2--aHQCLcBGAsYHQ/w284-h400/Descargar-High-School-DxD-Temporadas-1-al-4-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">High School DxD Temporada 4 (Hero) Español Latino (Fandub)</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/high-score-girl-temporada-1-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-jkNdK_BpnPE/YKMqEE3dpUI/AAAAAAAABag/g75JGfEAeqQleWWN5im7atMsScARnD6yACLcBGAsYHQ/s16000/Descargar-High-Score-Girl-Temporada-1-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">High Score Girl Temporada 1 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/high-score-girl-temporada-2-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-_ESDq8h8IKI/YKMvYuHBpEI/AAAAAAAABa8/-vXR_f7DM5AHYyS69IPxOv4a2uIT4yZ0gCLcBGAsYHQ/s16000/Descargar-High-Score-Girl-Temporada-2-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">High Score Girl Temporada 2 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/higurashi-no-naku-koro-ni-gou-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEjH9kIVujqa6cefczeZ-eNdUt53W_dCPH0RfsvnRJJKOG1wOXAT8_7FULXdRoha3BRW0-MkG6kI3C_TGYNvFpFLBVHA9RVJtiE0AWxTONNdlc1Zraivka-gy5SlJx_OmxoOcY-gXCrZYRoWaYGmciUro3A3yROBJU74LTo9kUk4sQ4pClHTVEf4ELJR=w283-h400" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Higurashi no Naku Koro ni Gou Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/08/horimiya-español-latino_01253476045.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-LOUMn6RHOss/YRsPdY92FlI/AAAAAAAAEE8/A7yqzOnntoUlvMda1lD37aj2ARH8xPFigCLcBGAsYHQ/w296-h400/Descargar-HORIMIYA-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">HORIMIYA Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+</ul>
+</main>
+</div>
+</div>
+</div></div>
+
+<!-- Posts -->
+<div class='section' id='Blog'><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='Body'>
+<div class='Container'>
+<main class='Main'>
+<ul class="ListAnimes AX Rows A03 C02 D02">
+<div class='Body'>
+<div class='Container'>
+<h1 style='color:#bbb;font-weight: bolder;'>I</h1>
+<hr style='height:5px;background-color:#fff;'/>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/09/idinvaded-español-latino_0968141409.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-BWQH_Q8dJ-w/YUFch34YKJI/AAAAAAAAEkM/6138y8RPJIcZ1EwpiuBl9ZFAkX1F8ZOQgCLcBGAsYHQ/w286-h400/Descargar-ID-INVADED-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">ID:INVADED Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/ijiranaide-nagatoro-san-español-latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEiRhS5VP6b0YU_a6LnB5HNxVFlviCLjIX9bhh0MzN74k2FbpeuVs7R3mO__tMeGX8mppOnsg3NHOlk52uqr3zpbEky5DGQx26BoSYM4JtgEnub2slBo3K1xaZ4IVFVpCea6LQgPy4cfI8BQFlgiwL3hHDOV3stDZXH1c5ErcCQRQ1E1vWAU5c8_lgKU=w452-h640" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Ijiranaide, Nagatoro-san Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/ijouseibutsu-kenbunroku-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-lTpqTz7zFe8/YKR1k7aIBGI/AAAAAAAABj4/72STF_gJ6cg2Osod9vTMOb86SuIx1UGVACLcBGAsYHQ/s16000/Descargar-Ijouseibutsu-Kenbunroku-Registro-de-Criaturas-Fant%25C3%25A1sticas-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type donghua">Donghua</span>
+</div>
+<h2 class="Title" style="color:#fff">Ijouseibutsu Kenbunroku (Registro de Criaturas Fantásticas) Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/isekai-wa-smartphone-to-tomo-ni-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-X5-waBX4wYQ/YKRPYHYtEsI/AAAAAAAABdc/PtEkqd1ngA8MUu5_nKfu-aqyDyILicAFQCLcBGAsYHQ/s16000/Descargar-Isekai-wa-Smartphone-to-Tomo-ni-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Isekai wa Smartphone to Tomo ni Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+</ul>
+</main>
+</div>
+</div>
+</div></div>
+
+<!-- Posts -->
+<div class='section' id='Blog'><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='Body'>
+<div class='Container'>
+<main class='Main'>
+<ul class="ListAnimes AX Rows A03 C02 D02">
+<div class='Body'>
+<div class='Container'>
+<h1 style='color:#bbb;font-weight: bolder;'>J</h1>
+<hr style='height:5px;background-color:#fff;'/>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/09/jibaku-shounen-hanako-kun-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-ucENu-i4D1M/YUFaK0U8HfI/AAAAAAAAEj8/1XLBkbF2wLQmr8mZOPuWYZ8wBqeBZbuPwCLcBGAsYHQ/w284-h400/Descargar-Jibaku-Shounen-Hanako-kun-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Jibaku Shounen Hanako-kun Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/02/jujutsu-kaisen-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://www.hcyacg.com//bangumi/34430.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Jujutsu Kaisen Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+</ul>
+</main>
+</div>
+</div>
+</div></div>
+
+<!-- Posts -->
+<div class='section' id='Blog'><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='Body'>
+<div class='Container'>
+<main class='Main'>
+<ul class="ListAnimes AX Rows A03 C02 D02">
+<div class='Body'>
+<div class='Container'>
+<h1 style='color:#bbb;font-weight: bolder;'>K</h1>
+<hr style='height:5px;background-color:#fff;'/>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/07/kaguya-sama-love-is-war-temporada-1-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-dT8PpywEU58/YPcHhy39VvI/AAAAAAAADWc/GdRX7RzAL0YRQc7a2CwTliLr5whJFdFZwCLcBGAsYHQ/w304-h400/Descargar-Kaguya-sama-Love-is-War-Temporada-1-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.png" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Kaguya-sama: Love is War Temporada 1 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/07/kaguya-sama-love-is-war-temporada-2-español-latino_01969109265.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-trzCbx-UWUg/YPcIEOd-6VI/AAAAAAAADWs/jU2UoLXPsyQLdJfTjIgQjTgqgWx3KkpCQCLcBGAsYHQ/w275-h400/Descargar-Kaguya-sama-Love-is-War-Temporada-2-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.png" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Kaguya-sama: Love is War Temporada 2 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/04/kakegurui-temporada-1-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://pm1.narvii.com/7521/067bdf18ea43cf97cdb493a963d34707eefd7962r1-750-1079v2_hq.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Kakegurui Temporada 1 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/04/kakegurui-temporada-2-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://pbs.twimg.com/media/ExVcT9eWEAQJxJr.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Kakegurui Temporada 2 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/kamisama-hajimemashita-temporada-1-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEiad7AvRGvOr3c8RrzIr_2TpYigEHwgCKyMA5BKkel02VMd-5LRoBZoVBIznaaJ1EUnVLuvoZDtkww1xP5IOTU0eNSeLGC1-7dXO73XtzkUKcyvk-3nyIVhNGTLjPheLaUKTFGcMAlMnoXpCOG6iAX7uOwRYQ6P3dJGWP-bh0PfUgyt0vxeXFkm9GMu=w275-h400" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Kamisama Hajimemashita Temporada 1 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/kamisama-hajimemashita-temporada-2-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEhkUl4zqSHzikcVFFBsxv7tQO7M63acKXeW5i5ZTsCTfhJ-M-jHxBLzpGqXv3jEBRZyOQxSolj2zJqWYzFINuLzqXkm3TTsefYunyTXx5pVcFUcskoqheZTX2Rdn_ktJeEnAJgTlTaJMN3Dfs46WZdFupzyzy5ktQCMzSsriqYkIrBsz8xwLPUS9_N6=w283-h400" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Kamisama Hajimemashita Temporada 2 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/kenja-no-mago-español-latino_0172689621.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-XDS4lMSNgk4/YV5ciQYLXHI/AAAAAAAAEy0/8DT8Jl13k14mtRAbtJd356qYk9CvOYY_gCLcBGAsYHQ/w273-h400/Descargar-Kenja-no-Mago-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Kenja no Mago Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/01/kimetsu-no-yaiba-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://pbs.twimg.com/media/D3E4YgBUgAEtqBk.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Kimetsu no Yaiba Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/kimetsu-no-yaiba-el-tren-infinito-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-vMSTFOqVLJY/YK0P8CS019I/AAAAAAAABvo/62nSfDVDUocgyGlPSttgwKNQ1S4Vge5_gCLcBGAsYHQ/s16000/Descargar-Kimetsu-no-Yaiba-El-Tren-Infinito-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type movie">Película</span>
+</div>
+<h2 class="Title" style="color:#fff">Kimetsu no Yaiba Movie: Tren Infinito Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/kimi-no-na-wa-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-Q6L82cot8Nk/YJSiChEKh6I/AAAAAAAABK4/uqHqgmJpJ2gF-odUpHqGBglpLcJmjEltgCLcBGAsYHQ/s16000/Descargar-Kimi-no-Na-wa-Your-Name-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type movie">Película</span>
+</div>
+<h2 class="Title" style="color:#fff">Kimi no Na wa (Your Name) Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/kimi-to-boku-no-saigo-no-senjou-aruiwa-sekai-ga-hajimaru-seisen-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEgxDRfOccT38lzrFU5xOIKDKKqvNjoEFWuRxH8rfH6wEmsoMCHkGRmODuIrRZHLaAMmyfVwXAHgU5_QiHrWdH8JUYEdLo-Tn65_d-WtObYApJKJ_aDtr7pVQwzkvhUrG3z76kWMeuaYxcet-AbFNbKWx3w4UD4kYiN21_LtDoreiTjic0imO8_cKVNU=w284-h400" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Kimi to Boku no Saigo no Senjou, Aruiwa Sekai ga Hajimaru Seisen Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/04/kobayashi-san-chi-no-maid-dragon-temporada-1-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-dU0rIG0tuaU/YIDGc5UqJzI/AAAAAAAAA7k/wm31s_9Imxc6ccik6tenb5z69YhO6QdBQCLcBGAsYHQ/s16000/Descargar-Kobayashi-san-Chi-no-Maid-Dragon-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Kobayashi san Chi no Maid Dragon Temporada 1 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/07/kobayashi-san-chi-no-maid-dragon-temporada-2-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-iPobQH_deag/YPb_YVJNCsI/AAAAAAAADSc/C5BJAcEZEI4NoWy_sBTpS6xGx7ejAKGuwCLcBGAsYHQ/w283-h400/Descargar-Kobayashi-san-Chi-no-Maid-Dragon-Temporada-2-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Kobayashi-san Chi no Maid Dragon Temporada 2 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/kono-subarashii-sekai-ni-shukufuku-wo-temporada-1-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-zyipurUrL_8/YJYIVLl-omI/AAAAAAAABPg/D31yzlt4WLkAKpO4hOicXlFVtn8A0FuHQCLcBGAsYHQ/s16000/ABC14.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Kono Subarashii Sekai ni Shukufuku wo! Temporada 1 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/kono-subarashii-sekai-ni-shukufuku-wo-temporada-2-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-mcFqz_sPejs/YJacTFKBVyI/AAAAAAAABQQ/MH6v4mZlEIsvOHcF0y3kWFeCl1vesOBcgCLcBGAsYHQ/s16000/ASD3.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Kono Subarashii Sekai ni Shukufuku wo! Temporada 2 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/01/kumo-desu-ga-nani-ka-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://static.hdrezka.ac/i/2020/11/26/x8e4c98a39423dh52k40u.png" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Kumo Desu ga, Nani ka? Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/08/kuroshitsuji-temporada-1-español-latino_0459269768.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-o3tNt7ym3BM/YRR8qppVbAI/AAAAAAAAEDM/n6iRnq807sgSPVthlY2CJVW58IM2qbYKwCLcBGAsYHQ/w299-h400/Descargar-Kuroshitsuji-Temporada-1-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Kuroshitsuji Temporada 1 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/08/kuroshitsuji-temporada-2-espanol-latino_02083266093.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-nFH4g8TjheA/YRR--RzljyI/AAAAAAAAEDY/8kHWGWqzLWQNYHFAskeY0bnSrQ-2LPFowCLcBGAsYHQ/w299-h400/Descargar-Kuroshitsuji-Temporada-2-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Kuroshitsuji Temporada 2 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/kyuuketsuki-sugu-shinu-español-latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEjLduWDDUDX5LDBAdAupvvt_4AlBjfPbfAuOJ6wwlYWAksmi1tyBjinvE6ehqNTU2LjqfHjS6N3xZcMX8W7fs5No07srhGqSrCvT17KtRqhG-k9UDpSEsgEcOFZAzlVJcAxjLswB917iOLmWcZA6DTrNCpLloydocdiGmsAdVMdG52-3IW5Icf1ntyI=s16000" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Kyuuketsuki Sugu Shinu Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/09/kyuukyoku-shinka-shita-full-dive-rpg-ga-genjitsu-yori-mo-kusoge-dattara-español-latino_01397199490.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-C6hbX5ki74U/YUFUQjlvLWI/AAAAAAAAEjc/w5OZ2NgAKM42oJiG8uk0-B_Ov3nkokqKgCLcBGAsYHQ/w285-h400/Descargar-Kyuukyoku-Shinka-shita-Full-Dive-RPG-Dattara-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Kyuukyoku Shinka shita Full Dive RPG ga Genjitsu yori mo Kusoge Dattara Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+</ul>
+</main>
+</div>
+</div>
+</div></div>
+
+<!-- Posts -->
+<div class='section' id='Blog'><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='Body'>
+<div class='Container'>
+<main class='Main'>
+<ul class="ListAnimes AX Rows A03 C02 D02">
+<div class='Body'>
+<div class='Container'>
+<h1 style='color:#bbb;font-weight: bolder;'>L</h1>
+<hr style='height:5px;background-color:#fff;'/>
+<li>
+<article class='Anime alt B'>
+<a href='https://www.DAnimeWorld.com/2021/11/log-horizon-entaku-houkai-español-latino.html'>
+<span class='Estreno'><span>Estreno</span></span>
+<div class='Image fa-play-circle-o' style='background-color:#000'>
+<figure>
+<img src='https://blogger.googleusercontent.com/img/a/AVvXsEjiJ7VHJvFFd4PJk3xqR9y_1CmZt7bSFXnHyDL9kxfYduDtu8TPMhKIAUJXZSphNPikF8ckG3qdkYn4GyIIJ7h0PP_-3NEHFIPGC8KMVxPJ-f9a-ktGP9PX6WylG4A6Th3ZZR_atgjcC7aov-O3qadhGPEo2DkIGBuqsGNSMMujZW33XOstTvO8tka9=w426-h640' width="385" height="200"/>
+</figure>
+<span class='Type tv'>Anime</span>
+</div>
+<h2 class='Title' style='color:#fff'>Log Horizon: Entaku Houkai Español Latino</h2>
+</a>
+</article>
+</li>
+<div class='blog-pager container' id='blog-pager'>
+</div>
+</ul>
+</main>
+</div>
+</div>
+</div></div>
+
+<!-- Posts -->
+<div class='section' id='Blog'><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='Body'>
+<div class='Container'>
+<main class='Main'>
+<ul class="ListAnimes AX Rows A03 C02 D02">
+<div class='Body'>
+<div class='Container'>
+<h1 style='color:#bbb;font-weight: bolder;'>M</h1>
+<hr style='height:5px;background-color:#fff;'/>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2020/12/majutsushi-orphen-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://dreager1.files.wordpress.com/2016/04/pimg_7134241141397520.jpeg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Majutsushi Orphen Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2020/12/majutsushi-orphen-revenge-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://static2.statics.life/tracker/poster/eaf7d8b709.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Majutsushi Orphen: Revenge Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/11/mars-red-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEhL0gcVMpy1WlY_qlURpYzK2jlRBWJ2UHiu5V3EsxaJaTzC3ylpAGx8uhOC66154sa6zvAj_FEPjhrugNLhJNNUg-Q3tK41le-uW0mrOht0TLqPa-w3uErkV5VKx7liZQin7399ShHH1JyE8UXUsS8qeY6DiZwgcZlSdFO-UojKiPN5JbEmgP-2TZNk=w426-h640" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Mars Red Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/07/meikyuu-black-company-espanol-latino_095781197.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-y7TdnEcUT4c/YPcEE5ceVyI/AAAAAAAADUs/XnGQnnaqHZ4nlLJrRLac1XtKnzX0FaUuACLcBGAsYHQ/w291-h400/Descargar-Meikyuu-Black-Company-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.png" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Meikyuu Black Company Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/mieruko-chan-español-latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEiJ1BIrWLLMVbFDakynvPQ3KvFRBzbsNENS6bO3iTdbcHe9Vl9MdvDb9pR_qxDa3JNtxY9vXjuitxwePTazSLeBcvHC5Bmdug7bct6dSnKsPcNeiADmy-wFEmtSILWHRUmTH22F1wjLLRuaXRCCy-tUD86WOsxhqb7vJzF2A3QzjzyfGogGTbtt6T-B=w283-h400" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Mieruko-chan Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/08/mushoku-tensei-jobless-reincarnation-temporada-1-español-latino_0432595154.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-XzgdEMfHcH0/YRxUwlYdlyI/AAAAAAAAEJE/CXUDA6NNYVMkoyHHBq2i_9JGyr-PFgLYgCLcBGAsYHQ/w266-h400/Descargar-Mushoku-Tensei-Joble<li>ss-Reincarnation-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Mushoku Tensei: Jobless Reincarnation Temporada 1 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B"> 
+<a href="https://www.DAnimeWorld.com/2021/10/mushoku-tensei-jobless-reincarnation-jobless-reincarnation-temporada-2-español-latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEjsauOWyjh1U53cBaWEIBQFFZLWWPw8AN3LOcT0prcdb8s4K_imcydxaSOtFqkNejbnhPu9ZWoIvOQ4mxEfEU55p6A1AwDoSnWVyWwQzNjc-iZLjcXUojZwBA32QzBTVgDREAYwOmoZf_qZIwjtcjnJ0BS7lKTg6mBikO38Wsdh0zKBqiUNcGZCeyEp=s16000" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Mushoku Tensei: Jobless Reincarnation Temporada 2 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+</ul>
+</main>
+</div>
+</div>
+</div></div>
+
+<!-- Posts -->
+<div class='section' id='Blog'><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='Body'>
+<div class='Container'>
+<main class='Main'>
+<ul class="ListAnimes AX Rows A03 C02 D02">
+<div class='Body'>
+<div class='Container'>
+<h1 style='color:#bbb;font-weight: bolder;'>N</h1>
+<hr style='height:5px;background-color:#fff;'/>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/07/nanatsu-no-taizai-temporada-1-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-TaTBW9u5fZg/YPgpCelAthI/AAAAAAAADZU/ZVMGOsgbyBkj60iTZBDbwnD6-OlKYQeIQCLcBGAsYHQ/w283-h400/Descargar-Nanatsu-no-Taizai-Temporada-1-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Nanatsu no Taizai Temporada 1 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/07/nanatsu-no-taizai-temporada-2-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-rJwYv_qt3H4/YPcOa6ApgBI/AAAAAAAADYg/1FvM5spID68fMLk_dZ_h1MfCzU-HjF1LACLcBGAsYHQ/w285-h400/Descargar-Nanatsu-no-Taizai-Temporada-2-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Nanatsu no Taizai Temporada 2 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/07/nanatsu-no-taizai-temporada-3-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-xi59_NMq3wQ/YPcLe9GE5oI/AAAAAAAADXo/NRTEc9q9ohc3du2yIVshFgC-aUS6NNNOACLcBGAsYHQ/w283-h400/Descargar-Nanatsu-no-Taizai-Temporada-3-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Nanatsu no Taizai Temporada 3 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/06/nanatsu-no-taizai-temporada-4-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-wg5ZvXygtDk/YPovvwUG_HI/AAAAAAAADmg/yMjJTKAV7FoWwgrlK7Ke6Ecf4uNIJTlXwCLcBGAsYHQ/w283-h400/Descargar-Nanatsu-no-Taizai-Temporada-4-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpeg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Nanatsu no Taizai Temporada 4 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/07/nanatsu-no-taizai-movie-tenkuu-no-torawarebito-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-l4x0h0CUIro/YPcNLhB2Q9I/AAAAAAAADYI/00X45ZQDuuwmVIWurC-WZT-hrjD09Qe2gCLcBGAsYHQ/w284-h400/Descargar-Nanatsu-no-Taizai-Movie-Tenkuu-no-Torawarebito-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.png" width="385" height="200">
+</figure>
+<span class="Type movie">Película</span>
+</div>
+<h2 class="Title" style="color:#fff">Nanatsu no Taizai Movie: Tenkuu no Torawarebito Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/nanatsu-no-taizai-movie-2-hikari-ni-norowareshi-mono-tachi-español-latino_01175523807.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-wFUo_NDUOYE/YVdtemLAwtI/AAAAAAAAEsM/ESNAQ-QANIw0azxiqfxdGq1gwZx2MBSwwCLcBGAsYHQ/w284-h400/Descargar-Nanatsu-no-Taizai-Hikari-ni-Norowareshi-Mono-tachi-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type movie">Película</span>
+</div>
+<h2 class="Title" style="color:#fff">Nanatsu no Taizai Movie 2: Hikari ni Norowareshi Mono-tachi Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/07/nanatsu-no-taizai-seisen-no-shirushi-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-vIWGXQFMSLs/YPgn_JKilGI/AAAAAAAADY8/kE_JOcrgiK05hEhOxlTe7-vwcBMmvj1UgCLcBGAsYHQ/w283-h400/Descargar-Nanatsu-no-Taizai-Seisen-no-Shirushi-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpeg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Nanatsu no Taizai: Seisen no Shirushi Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/no-game-no-life-zero-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-nea5kKxjurc/YKRqLBCAjSI/AAAAAAAABiw/AwxQOUnoHTIlVF_gdkBYU7sUFZ6-tm0-gCLcBGAsYHQ/s16000/Descargar-No-Game-No-Life-Zero-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type movie">Película</span>
+</div>
+<h2 class="Title" style="color:#fff">No Game No Life: Zero Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/no-game-no-life-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-siTZlgIOAs0/YKRcIf3KToI/AAAAAAAABf0/B6rlg2jUmbciBM6kUtGD7b31kb5UYkqAQCLcBGAsYHQ/s16000/Descargar-No-Game-No-Life-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">No Game No Life Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2020/12/noblesse-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://universo-nintendo.com.mx/my_uploads/2020/09/Noblesse-Poster-2.jpg" width="385" height="200">
+</figure>
+<span class="Type donghua">Donghua</span>
+</div>
+<h2 class="Title" style="color:#fff">Noblesse Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/nomad-megalo-box-2-espanol-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-yOUi0012xfQ/YJVI13TfZPI/AAAAAAAABLI/UY4Pp4i-jts2y-Is8TOvkWfZ60TnhBdMQCLcBGAsYHQ/s16000/Descargar-Nomad-Megalo-Box-Temporada-2-Sub-Espanol-Latino-Online-RivAnimation.jpeg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h3 class="Title" style="color:#fff">Nomad: Megalo Box Temporada 2 Español Latino</h3>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/11/noragami-temporada-1-espanol-latino.html">
+<span class="Estreno">.<span>ESTRENO</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEieb2ggBTJD5I7Wxm3-u3mF_b-cx5to2jZEJtibXtQMyt5iv6CNCBj5HaYldfi3p0u7JEZQZhuw7votsdPlmSvCGQrQFiIRxD8Z05DUi8PtxtP-ziedv0biT3NIWdbn-9lp9xoS9Dl3zlN0nUFjeeAZ2SqvRPZbuyKZ4OA-RSOyrCc4c1UVU5FEmhAp=w426-h640" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h3 class="Title" style="color:#fff">Noragami Temporada 1 Español Latino</h3>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+</ul>
+</main>
+</div>
+</div>
+</div></div>
+
+<!-- Posts -->
+<div class='section' id='Blog'><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='Body'>
+<div class='Container'>
+<main class='Main'>
+<ul class="ListAnimes AX Rows A03 C02 D02">
+<div class='Body'>
+<div class='Container'>
+<h1 style='color:#bbb;font-weight: bolder;'>O</h1>
+<hr style='height:5px;background-color:#fff;'/>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/one-punch-man-temporada-1-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-lUuQZfRacpw/YKL7ZcFLSDI/AAAAAAAABY0/5N8zXvBxcyw6qGCMWIf29KGOTHdgGKvTwCLcBGAsYHQ/s16000/Descargar-One-Punch-Man-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">One Punch Man Temporada 1 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/01/ore-dake-haireru-kakushi-dungeon-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://www.magmag.games/wp-content/uploads/2020/11/EhKKkt2U0AMw5k8-735x1024.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Ore dake Haireru Kakushi Dungeon Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/ousama-ranking-español-latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEi8n3JKNNeZGFc6zM6dahqfVfSx_hjeSVt3LwqITfMgHv_lzPmzRkZCLH7esMS8s8kQELkaTHaqxWIdZNeT5AfJh7apbTANO_800WmuBBDqGRO7Aqngw6YTPl2VOGxp_Xp-08zenD1z-efgG4UGc0PC8UPsFVo5I_RUkFHqxyGDW8t_hIqJT2495HL_=w452-h640" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Ousama Ranking Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/02/overlord-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://pm1.narvii.com/6670/bdc57d51675e8468ce0abb91813174099b6a571f_hq.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Overlord Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/02/overlord-2-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://i.pinimg.com/564x/81/56/3c/81563cd3b63b3a5eaf5bcfe4fc83a31b.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Overlord II Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/02/overlord-iii-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://pbs.twimg.com/media/EU1c6x3XgAAViOu.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Overlord III Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/07/owari-no-seraph-temporada-1-audio-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-vXeCtnvVrh4/YPcI1SKrT9I/AAAAAAAADW4/Z6Cyq06eD3MCkZNKZmPzn_sqWgyrdFYCQCLcBGAsYHQ/w276-h400/Descargar-Owari-no-Seraph-Temporada-1-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Owari no Seraph Temporada 1 Audio Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/07/owari-no-seraph-temporada-2-audio-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-RIjyTscZIFc/YPcJX8roMjI/AAAAAAAADXI/aA7At9u6K7w2EG_dCNkQXfR-gFqpopFbwCLcBGAsYHQ/w273-h400/Descargar-Owari-no-Seraph-Temporada-2-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpeg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Owari no Seraph Temporada 2: (Nagoya Kessen-hen) Audio Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+</ul>
+</main>
+</div>
+</div>
+</div></div>
+
+<!-- Posts -->
+<div class='section' id='Blog'><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='Body'>
+<div class='Container'>
+<main class='Main'>
+<ul class="ListAnimes AX Rows A03 C02 D02">
+<div class='Body'>
+<div class='Container'>
+<h1 style='color:#bbb;font-weight: bolder;'>P</h1>
+<hr style='height:5px;background-color:#fff;'/>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/06/pacific-rim-the-black-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-u2IB5OhoDww/YP4ZVoHNtZI/AAAAAAAADuA/sAkCRvG5oBsOLK8dUfZN0A3b2hZqSv-MACLcBGAsYHQ/w266-h400/Descargar-Pacific-Rim-The-Black-Titanes-del-Pac%25C3%25ADfico-Tierra-de-nadie-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Pacific Rim: The Black (Titanes del Pacífico: Tierra de nadie) Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/platinum-end-español-latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEiYf3_KTUHVM_EVpTZq0qaOaIIbg7jI2jM37dCWI7iet8indb8eT7OjxHxoJtzG7RtT5WviW35dpa1Ry9vZYyvNSo6xv04qJbKlokLcfmUA1QhvQMeaziAtqxT66_pCx43a4wmFBtCNyAOu9iLIadnD2dhL7AkmOCIjoqcIzxOrzEVcTChjOOUnJHvC=s16000" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Platinum End Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/11/plunderer-español-latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEiiKGPdFpXpPZ3bMzGeJk60i1fSYo2ItEoT8qIea-1mWjWUJX75M7OJjelB9THW78QGOqMVnz2yoD7iMtHYbn6_b0UZy6fi6bFSnToY2she1ZtKxlfDjJO0vYdRTnCjensBAZ0kdsQcl8jEfILY2neCScz4SYmBQuCrvItt5VvGoDP5-7pq4ozmYW1W=w454-h640" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Plunderer Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+</ul>
+</main>
+</div>
+</div>
+</div></div>
+
+<!-- Posts -->
+<div class='section' id='Blog'><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='Body'>
+<div class='Container'>
+<main class='Main'>
+<ul class="ListAnimes AX Rows A03 C02 D02">
+<div class='Body'>
+<div class='Container'>
+<h1 style='color:#bbb;font-weight: bolder;'>R</h1>
+<hr style='height:5px;background-color:#fff;'/>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/re-zero-kara-hajimeru-isekai-seikatsu-hyouketsu-no-kizuna-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-nsD4o0DalY0/YLWTDtdSnbI/AAAAAAAACBQ/GYlHLTNXNOcgxCCIjd5elHPrNt8elFwbACLcBGAsYHQ/s16000/Descargar-ReZero-kara-Hajimeru-Isekai-Seikatsu-Hyouketsu-no-Kizuna-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type ova">Ova</span>
+</div>
+<h2 class="Title" style="color:#fff">Re:Zero kara Hajimeru Isekai Seikatsu - Hyouketsu no Kizuna Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/re-zero-hajimeru-isekai-seikatsu-memory-snow-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-sAPYE7UC57g/YLTmQe6q6iI/AAAAAAAAB-k/n5gXzzHvlI461oCLekLmm6Akd5vt4AtuwCLcBGAsYHQ/s16000/Descargar-ReZero-kara-Hajimeru-Isekai-Seikatsu-Memory-Snow-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type movie">Película</span>
+</div>
+<h2 class="Title" style="color:#fff">Re:Zero kara Hajimeru Isekai Seikatsu - Memory Snow Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/re-zero-hajimeru-isekai-seikatsu-temporada-1-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-eajBNpRzewo/YLRREhtML4I/AAAAAAAAB-c/EBQTfuI2bTQ-Z7lt2Pc-fYR2G5SysjF1wCLcBGAsYHQ/s16000/Descargar-ReZero-kara-Hajimeru-Isekai-Seikatsu-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Re:Zero kara Hajimeru Isekai Seikatsu Temporada 1 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/04/re-zero-hajimeru-isekai-seikatsu-temporada-2-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-q5Z3rJZZ_ug/YHe1f0pVktI/AAAAAAAAA28/vmMgnJ_JImoVyly3PAG_DS-z9sKnhqRKQCLcBGAsYHQ/s16000/Descargar-Re-Zero-kara-Hajimeru-Isekai-Seikatsu-Temporada-2-Espa%25C3%25B1ol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Re:Zero kara Hajimeru Isekai Seikatsu Temporada 2 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+</ul>
+</main>
+</div>
+</div>
+</div></div>
+
+<!-- Posts -->
+<div class='section' id='Blog'><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='Body'>
+<div class='Container'>
+<main class='Main'>
+<ul class="ListAnimes AX Rows A03 C02 D02">
+<div class='Body'>
+<div class='Container'>
+<h1 style='color:#bbb;font-weight: bolder;'>S</h1>
+<hr style='height:5px;background-color:#fff;'/>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/saihate-no-paladin-español-latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEhn1LQEbDzB9G2-s9oNkIKC5giE2TSLl99N2faOLPmeRFQtJMSv2Iu26Ev8Bs4lN7VnIPBv0ok-sfh6hJ8cMzL7n5NSd-W6-u0Cb_rf4XR36nZemV-p4CiaoxOuJNHHgzRnKzQgw77N6YHHH8kHp1esmMdJiAZQuBRVYfPPApbCRjFeN5xzX7D58l9z=s16000" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Saihate no Paladin Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/06/saiki-kusuo-no-psi-nan-shidou-hen-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-kHdWucp_Qk0/YMAn_t-Q_oI/AAAAAAAACMc/qU2Zf0g40Woncjjx9ndjdIZQ4VI_qcY3wCLcBGAsYHQ/s16000/Descargar-Saiki-Kusuo-no-Psi-nan-Shidou-hen-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Saiki Kusuo no Psi-nan Shidou-hen Español Latino </h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/sakugan-sacks-and-guns-español-latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEioDayZJ9SILhvJtKFbSrWIpJ-6YvxLn66YorB6H5ykx7QmTXUXNK8uH3sdozEDf79b1zVfkLXC79vEqWJlpwRBF2ybCHBCfRRbXBlRVfP95jwxJACDyYtvRlDRUXrnOBYl7dx071TS6vmihjkSR2_ba_OEgR2Ysuu_uXno5EwMBdDMUpf8vd3B-EEP=s16000" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Sakugan (Sacks&amp;Guns!!) Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/07/scarlet-nexus-español-latino_0508518615.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-vYFaa_PsoEA/YPcFvN7zaSI/AAAAAAAADVo/LbW8dRdhZxIv_wu1ukpQB6l_6JjnWBZZQCLcBGAsYHQ/w284-h400/Descargar-Scarlet-Nexus-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Scarlet Nexus Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/seirei-gensouki-spirit-chronicles-español-latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEiPBnhszSVU8RLI5WK4lD_WgLwMrBFkaQnvOdfN9c5EiW5plg0jbK_4WS8_f7pw4GFDCdzc5CBvMUOfDzifvVlS2TRp48fIUSn2j_C_oj63U6zjDePbZ5laScA-vOWdgybAOEpKMm-lp3TkFOVG1Vb0P44DRyn9SFKcstcjdg-1uGnCL7cxg27MG5Rn=s16000" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Seirei Gensouki (Spirit Chronicles) Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/seijo-no-maryoku-wa-bannou-desu-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEhGORcIuU3DhZp04GlOtPY-fjJ5hRaHS1RTbJukqBiysLYMZIj325k9vxng5XCUgj12-koyTIdvKW-34SgfV-fx41b4ZpMLir85F3FMymI__MNl3aQrHOZHX2DAA_pRmf8zosHhT3X3cWEyDhyOoo5RcyJSpNvVE-7-KqOISJW-ytkPdyazcdRj758c=w274-h400" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Seijo no Maryoku wa Bannou Desu Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/sekai-saikou-no-ansatsusha-isekai-kizoku-ni-tensei-suru-español-latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEi_QCJvx19g0Hi3vEjtdnONYnjiRxP7Brok7yF7OhCQ5k-or-0RCMGmbQz2sHWhnFBF_Nz1Adw96wHwk8Fgv-KdkRC5Gh30tAJnW0WjM_p9yw47elvQWvVG6biXcHyq17UYRjG0d-VDRu2v5024QVWi8y9AmcOYIX4lpWAMqYo3gfakxCGa7HzOM7ez=w266-h400" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/sentouin-hakenshimasu-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-kRSrejvr9Kc/YI8EBqPGT9I/AAAAAAAABEQ/EqRNSVsJaVo9kAPDRWjqWuht3zsFlSStACLcBGAsYHQ/s16000/Descargar-Sentouin-Hakenshimasu-Sub-Espanol-Latino-Online-RivAnimation.png" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Sentouin, Hakenshimasu! Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/07/shaman-king-rey-chaman-español-latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-UThtcLaxopo/YPbkXDXVUaI/AAAAAAAADQI/f32iaDLVta0uYjAcCmbWRtmTabkmm9gzgCLcBGAsYHQ/w285-h400/Descargar-Shaman-King-Rey-Cham%25C3%25A1n-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.png" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Shaman King: Rey Chamán (2021) Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/shigatsu-wa-kimi-no-uso-audio-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEh-_QeKM7feo2qS_YbgP_bwmIzitjQH1bOa2hMGA66T5Q9LXDlYMZVP4Uegf5-585kV2QesqYu9EKcTiBRhXh7xKCv77R239rQlE36Fm4a7iUMFFch4nEbTBlYmcixX5scgO7G7T8kje17OjyWpMDZMqC4sSDKKBlfqOJYccwgY1gmvtvB_olk294bC=w318-h400" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Shigatsu wa Kimi no Uso Audio Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/shin-no-nakama-ja-nai-to-yuusha-no-party-wo-oidasareta-node-henkyou-de-slow-life-suru-koto-ni-shimashita-español-latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEhxY5wA1djfyO8ifoy8BYd8v0vXeSlzcHvge7Hv5bvHGg5fMrt_7oKWO8_HscW2ms56tvTua32HbA13nWd1vbc7kvcFgpKXo79fRSaEIfeiRx5N7K6CADwKkhmt6pX67DPK0B6USay96HduSSn8R__EqYG36Jh7PYAhIbvDyXVGM9P_FTT9w3Jv1sGh=w283-h400" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Shin no Nakama ja Nai to Yuusha no Party wo Oidasareta node, Henkyou de Slow Life suru Koto ni Shimashita Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/shin-tennis-no-ouji-sama-español-latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEiMB6XPdUr_oGpA9FFGXxjtB3Zu5V2MZo52oLedEUE0GXJ4pfkEOvMD3IxQqokrgchSZkw7rOVj1pQ9DPncS-NoLQPoobic2dJJgbknuny_pDJ8T3TLBkZAJuUuJZK6_7i2k2onEHYoWgz6FU0sWkDPCsZUfUtri1agR8eC3XmpUp_0C-cnmrwPkWi4=w280-h400" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Shin Tennis no Ouji-sama Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/01/shingeki-no-kyojin-the-final-season-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://sm.ign.com/ign_latam/screenshot/default/visual-02_fjmz.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Shingeki no Kyojin: The Final Season Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/shokugeki-no-souma-ni-no-sara-español.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-_4fk0sv8WrM/YI9mPYAbjVI/AAAAAAAABFQ/tD7-S6JTmS0vINxScp8ksB0nR16sZVXEwCLcBGAsYHQ/s16000/Descargar-Shokugeki-no-Souma-Ni-no-Sara-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Shokugeki no Souma: Ni no Sara Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/shokugeki-no-souma-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-y4BlcdmeRdU/YI9gKw_sxNI/AAAAAAAABFI/rUVatSo2XJIiZhswHbR2ahjCvGxl90kVgCLcBGAsYHQ/s16000/Descargar-Shokugeki-no-Souma-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Shokugeki no Souma Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/06/shuumatsu-no-valkyrie-español-latino.html">
+<span class="Estreno">:<span style="background:#FF4000">FINALIZADO</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-lnVzmLh9LtM/YPw__ffnanI/AAAAAAAADsE/pJH9BmFhtqcguhpxSDRIjzZk3-QWD0sjwCLcBGAsYHQ/w290-h400/Descargar-Shuumatsu-no-Valkyrie-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Shuumatsu no Valkyrie (Record of Ragnarok) Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2020/12/sidonia-no-kishi-temporada-1-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://pm1.narvii.com/6571/7e13d0574e6cc10ae1dadc48d931534f426ec8c1_hq.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Sidonia no Kishi Temporada 1 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/04/sidonia-no-kishi-temporada-2-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://s1.zerochan.net/Sidonia.no.Kishi.600.1725125.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Sidonia no Kishi Temporada 2 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/09/sk8-the-infinity-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-oco5Yn8vmQs/YUFKA5XmnlI/AAAAAAAAEh8/65Ha-I3BM8ghbYXTrYC1x8wFKYQ9SPd0gCLcBGAsYHQ/w280-h400/Descargar-SK8-the-Infinity-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">SK8 the Infinity Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/04/slime-taoshite-300-nen-shiranai-uchi-ni-level-max-ni-nattemashita-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://pic1.zhimg.com/80/v2-9529b33c7a6a7e4d581023137d1c8d68_1440w.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/07/sonny-boy-español-latino_01278485031.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-M2BAtIM9-_c/YPcCpkVIfjI/AAAAAAAADUQ/ussIapt06CQLOEM0USF-ITXWWtYlc_6aACLcBGAsYHQ/w284-h400/Descargar-Sonny-Boy-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Sonny Boy Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/steinsgate-zero-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEirAzCykSF_hwJw4kBX8py3Ix4c_ZJ0hFVYjjSFWAFZtT7ZfMzK3Rl_OKDq6wSA0iBJorwcECxXAfJAG8HDFM2kWQmLn9h7kj1QpEPGt4SOy-YuXO7kXXQZlwaOWMQWCvT0BJWbdGkU3qpfiHlvRtaxzT7l5x1XYiVMCeicHIsaIWprXYCIdkpVGhEC=w283-h400" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Steins;Gate 0 (Steins,Gate Zero) Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/steinsgate-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEhpmmNY_AMhiUTYcsqzeH9rmiFoGUdWCwNheRrVf6LryWyU8Ed-j3q2a_qKl4Y3_0b0YUX6G276VVWw6kGpOORJfB8GCqEaWhbOjCC8f2m8apvYikzdQ4IsfYtE1rYm5aNFQp0Zg4omb8cQr9yebYKUXbYBV1bHgs66ZCmLMXttbNLhKfuwSP38io-s=w266-h400" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Steins;Gate Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/steinsgate-kyoukaimenjou-no-missing-link-divide-by-zero-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEhbbLCBiasoURLbAehOW_gZ_HpKDr_5lsccrctzMq2FEuMV0yfX77MiL4eGdo1nF89WxA64ATe1xlU4Y6SSvWxgwTe8UhZjOBxBGpg9x_LWbM1hO2dTuY469pXXLDzxfNm2riGcBP_Re72uibNCb--w8wuYpwF2bY7MymZyI4hHJ1ZJX2baNriQdp2p=w266-h400" width="385" height="200">
+</figure>
+<span class="Type ova">Ova</span>
+</div>
+<h2 class="Title" style="color:#fff">Steins;Gate: Kyoukaimenjou no Missing Link - Divide By Zero Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/steinsgate-oukoubakko-no-poriomania-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEgjJvO1h0tz7bP2SNtsEndxMyq-Az-MPOxh9uEz0kiaFes6dfx72n5v8W9t96j4DCZGEtwx2V-aDY7fn-DOGN71lDRMo7POHKvtMVd-iFqTjtAoZEOO_XaKWMu-z1gdi2X9vGS28iMLXYkcwOk_Gn0SwV3OS-gxZ8Q7PudMnu5nMwABpk_h8XRDgJxp=w266-h400" width="385" height="200">
+</figure>
+<span class="Type ova">Ova</span>
+</div>
+<h2 class="Title" style="color:#fff">Steins;Gate: Oukoubakko no Poriomania Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/strike-the-blood-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://i.imgur.com/cYCFnuA.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Strike the Blood Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/subarashiki-kono-sekai-the-animation-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://www.toramp.com/posters/shows/4930/width360/_the_animation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Subarashiki Kono Sekai The Animation Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/11/suki-ni-naru-sono-shunkan-wo-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEg_OVls1kQAHDo0IbnKBbBh9wUfRrukww2WUGvlxsTBxdxX8BmTDHa1kfYS3oHxg6Id_RvFllrY53si5Qp6zRADQRdQ5g3-eETwcR6MobvLs9U5E93d0heJmfxDlI2wBDtSpDnW9ijoeKjL5Jdt8HoBxQVm6kn7_VHlpnykiQ2toVXKVdHGqVuEkjPz=w426-h640" width="385" height="200">
+</figure>
+<span class="Type movie">Película</span>
+</div>
+<h2 class="Title" style="color:#fff">Suki ni Naru Sono Shunkan wo Español Latino (Fandub)</h2>
+</a>
+</article>
+</li>
+<li>
+<article class='Anime alt B'>
+<a href='https://www.DAnimeWorld.com/2021/11/super-cub-español-latino.html'>
+<span class='Estreno'><span style='background:#FF4000'>Finalizado</span></span>
+<div class='Image fa-play-circle-o' style='background-color:#000'>
+<figure>
+<img src='https://blogger.googleusercontent.com/img/a/AVvXsEi_fV2BV4mw-YcLqxeEO4P4lcmJdadq6W9BOqS08EySwPDCL4sw6LHcJDAAhhLtT4CJgNzgTUCScTf-RPHBP73EzARDv12jvbNKnWHFNPcHtiuz0MYpyLIRdOVAQfHdhNDBH4AAea8bSkRQA3dY8xo-lZEyQf73oZ3eSTJXp8MudXkjhM5Baew_JYUs=w450-h640' width="385" height="200"/>
+</figure>
+<span class='Type tv'>Anime</span>
+</div>
+<h2 class='Title' style='color:#fff'>Super Cub Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/11/sword-art-online-temporada-1-español-latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEjV5-NTWe7HSKXofQ2bAIvC5ba5y74BJM7Gu_hPfv6Bp9lDhhB5MRzgYHRFYceYw_uxmut3o_taPcgc_KaNqy0FSWqjY0i3CmxuqtPZOMUM1LC-lGs5KaWJkSoEgS7tnhQXy4dMGxni1pCH7fFoWo2_HUML-t0hI-oapQJkoKGRA5UmuWwB9p3ki3uX=w426-h640" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Sword Art Online Temporada 1 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+</ul>
+</main>
+</div>
+</div>
+</div></div>
+
+<!-- Posts -->
+<div class='section' id='Blog'><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='Body'>
+<div class='Container'>
+<main class='Main'>
+<ul class="ListAnimes AX Rows A03 C02 D02">
+<div class='Body'>
+<div class='Container'>
+<h1 style='color:#bbb;font-weight: bolder;'>T</h1>
+<hr style='height:5px;background-color:#fff;'/>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/04/tate-no-yuusha-no-nariagari-temporada-1-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://www.tvhland.com/vignette/tag/201901/5c34baa7b1bb6.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Tate no Yuusha no Nariagari Temporada 1 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/tatoeba-last-dungeon-mae-no-mura-no-shounen-ga-joban-no-machi-de-kurasu-youna-monogatari-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEjzsvWT_BcpVRW_99clwpGAuxkpudN_hJmaFvGtaBJ-Z0P9sQpUjlyJpMjxTT5ZVuWA_ETXJZWLv9g9RHpuTizFlSspJOqWyjh_BUlNnAQvx1wMHfu-fAuCms2AHZDiT94wfpupOwYdvNR8D_7JxuYD4SnVY7hArkuWKsQA-OvuqoRgdCBlHVFyjZJ8=w284-h400" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Tatoeba Last Dungeon Mae no Mura no Shounen ga Joban no Machi de Kurasu Youna Monogatari Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/tenki-no-ko-el-tiempo-contigo-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-xtnY0rBAmVQ/YJXpAV4qfzI/AAAAAAAABMg/9WyuSg6v4bwsCCJd1dun-m3tZO12Zbl7QCLcBGAsYHQ/s16000/Descargar-Tenki-no-Ko-El-Tiempo-Contigo-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type movie">Película</span>
+</div>
+<h2 class="Title" style="color:#fff">Tenki no Ko | Weathering With You (El Tiempo Contigo) Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2020/12/tenkuu-shinpan-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://www.newsly24.com/wp-content/uploads/2020/10/Sky-High-Survival-Affiche-1.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Tenkuu Shinpan Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/07/tensura-nikki-español-latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-ppj-pf1CccQ/YPcB0R1A7bI/AAAAAAAADT8/H2At-0gGD9c5ph9GzvNIWD3EJSOdBtcQQCLcBGAsYHQ/w281-h400/Descargar-Tensura-Nikki-Tensei-shitara-Slime-Datta-Ken-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.png" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Tensura Nikki: Tensei shitara Slime Datta Ken Español Latino</h2>
+</a>
+</article>
+</li>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/tensei-shitara-slime-datta-ken-temporada-2-español-latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEhmcH-UX9CmJ7XsDcwMZnnmEe9Vm9s7_yZIwCm9W4kS3ymKKLXTdVVh9j8muuOU7YPc_AGOrGoavThaB-ZBE5NgGKhbYTAOgbo19Yfeuh-7xCRtxyzBcBVf5xLEHclAdabX6dZzEWvJriYSq13WD3-0AaJ6BTM8djYHqAPVhQhIOxeA2Nx6wz9sW9vH=w476-h640" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Tensei shitara Slime Datta Ken Temporada 2 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/tokyo-ghoul-temporada-1-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-yw2yXUOY590/YJ3IXNzMkRI/AAAAAAAABTs/uc39OLGOXMc-U_1noRQa4iU7O0F68w0EACLcBGAsYHQ/s16000/Descargar-Tokyo-Ghoul-Temporada-1-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Tokyo Ghoul Temporada 1 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>  
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/tokyo-ghoul-temporada-2-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-tiubrhdVyAE/YJ3QsH20vmI/AAAAAAAABUM/yuQQ3xWCVrQvqPZ5AsIHZ7-ut2To-ZjEgCLcBGAsYHQ/s16000/Descargar-Tokyo-Ghoul-Temporada-2-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Tokyo Ghoul Temporada 2 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/06/tokyo-ghoul-jack-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-RDf2aRDL7o4/YP7V1eOMT5I/AAAAAAAADz8/dABRGQ-dmiQBL6ehgnZptvfmujWAZCKeQCLcBGAsYHQ/w296-h400/Descargar-Tokyo-Ghoul-Jack-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type ova">Ova</span>
+</div>
+<h2 class="Title" style="color:#fff">Tokyo Ghoul: Jack Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/tokyo-ghoul-temporada-3-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-VijQsF5OW5c/YJ3UL_x41bI/AAAAAAAABUc/UZUYc4mVkJ4socvWKWY8p02RBUmibmy6gCLcBGAsYHQ/s16000/Descargar-Tokyo-Ghoul-Temporada-3-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Tokyo Ghoul Temporada 3 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/06/tokyo-ghoul-pinto-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-xjBoytYNxA4/YP7UnuJim3I/AAAAAAAADzs/ahoCybYwW209St5sREe2GvbUu_7GCvwEQCLcBGAsYHQ/w296-h400/Descargar-Tokyo-Ghoul-Pinto-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type ova">Ova</span>
+</div>
+<h2 class="Title" style="color:#fff">Tokyo Ghoul: "Pinto" Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/tokyo-ghoul-temporada-4-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-fGwq1BcBn4o/YJ3YWdIWoHI/AAAAAAAABU0/_o9aS0G-KYYT_28FQRLcLbMwRHa0FyaBwCLcBGAsYHQ/s16000/Descargar-Tokyo-Ghoul-Temporada-4-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Tokyo Ghoul Temporada 4 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>  
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/04/tokyo-revengers-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-koi8gUuE-w4/YHhfoNOLAUI/AAAAAAAAA30/5f6Nizit5IAHYrJE7IaxfZJkZ_6aDuEjACLcBGAsYHQ/s16000/Descargar-Tokyo-Revengers-Espa%25C3%25B1ol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Tokyo Revengers Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class='Anime alt B'>
+<a href='Seleccion de capitulos de Tonikaku Kawaii Temporada 1 Español Latino.html'>
+<span class='Estreno'><span style='background:#FF4000'>Finalizado</span></span>
+<div class='Image fa-play-circle-o' style='background-color:#000'>
+<figure>
+<img src='https://i.pinimg.com/originals/19/cb/ac/19cbac81453b403f5d4d73639a29760d.jpg' width="385" height="200">
+</figure>
+<span class='Type tv'>Anime</span>
+</div>
+<h2 class='Title' style='color:#fff'>Tonikaku Kawaii Temporada 1 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class='Anime alt B'>
+<a href='Seleccion de capitulos de Tonikaku Kawaii SNS Español Latino.html'>
+<span class='Estreno'><span style='background:#FF4000'>Finalizado</span></span>
+<div class='Image fa-play-circle-o' style='background-color:#000'>
+<figure>
+<img src='https://1.bp.blogspot.com/-vpcQYHM-Xk8/YR2Lt0fRnkI/AAAAAAAAEJU/Ew6tZnrXXmkKgiL9sxB3ra_CPn5vJIkswCLcBGAsYHQ/w283-h400/Descargar-Tonikaku-Kawaii-SNS-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg' width="385" height="200">
+</figure>
+<span class='Type tv'>Anime</span>
+</div>
+<h2 class='Title' style='color:#fff'>Tonikaku Kawaii: SNS Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/10/tsuki-to-laika-to-nosferatu-español-latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEjAXVGzn1iecHBgocxgZjmJE-HWOBkWbMr8Fyu0Vte5hvJj36OvupeCCoPgTe1KBFPW7tHk33dBWUMh15e4xwSiD3jW93eYHaedaOaEpsbhkGmFr5i2f7AoovLBM91dowwb5d55l9HXUgsqv_3wDVOuOJMkQTssAQ8Tqq1Nd9aSHGUlcq_T6ZNBdr-9=s16000" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Tsuki to Laika to Nosferatu Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+</ul>
+</main>
+</div>
+</div>
+</div></div>
+
+<!-- Posts -->
+<div class='section' id='Blog'><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='Body'>
+<div class='Container'>
+<main class='Main'>
+<ul class="ListAnimes AX Rows A03 C02 D02">
+<div class='Body'>
+<div class='Container'>
+<h1 style='color:#bbb;font-weight: bolder;'>V</h1>
+<hr style='height:5px;background-color:#fff;'/>
+<li>
+<article class='Anime alt B'>
+<a href='Seleccion de capitulos de Vandread Temporada 1 Español Latino.html'>
+<span class='Estreno'><span style='background:#FF4000'>Finalizado</span></span>
+<div class='Image fa-play-circle-o' style='background-color:#000'>
+<figure>
+<img src='https://pm1.narvii.com/6423/70bb6056eadbf0a7c5c1c8516e2c6034225d54a3_00.jpg' width="385" height="200">
+</figure>
+<span class='Type tv'>Anime</span>
+</div>
+<h2 class='Title' style='color:#fff'>Vandread Temporada 1 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class='Anime alt B'>
+<a href='Seleccion de capitulos de Vandread Temporada 2 Español Latino.html'>
+<span class='Estreno'><span style='background:#FF4000'>Finalizado</span></span>
+<div class='Image fa-play-circle-o' style='background-color:#000'>
+<figure>
+<img src='https://www.v2anime.com/media/cache/49/26/49260bba21fd39a473edc67da31a0303.jpg' width="385" height="200">
+</figure>
+<span class='Type tv'>Anime</span>
+</div>
+<h2 class='Title' style='color:#fff'>Vandread Temporada 2 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/07/vanitas-no-carte-español-latino_092683984.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-uGeCfPwMyq4/YPcE9YjZ19I/AAAAAAAADVM/QRVaNCmM3Xgyh_6NyoGsrK7W3yT5ezy4gCLcBGAsYHQ/w280-h400/Descargar-Vanitas-no-Carte-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.png" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Vanitas no Carte Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/07/vinland-saga-temporada-1-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-mEizBNgp6Jo/YPcKh7kmNFI/AAAAAAAADXY/5T3hL-s9P9YCYj-fOlT8cK6m4hi7Ec98wCLcBGAsYHQ/w284-h400/Descargar-Vinland-Saga-Temporada-1-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Vinland Saga Temporada 1 Audio Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/09/vivy-fluorite-eyes-song-español-latino_0949517548.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-pJ4jM3C5LbU/YUFNn0ht5yI/AAAAAAAAEi0/foFWKQ_gb4U2Mz3pZskRm9coPzJGpy4KwCLcBGAsYHQ/w283-h400/Descargar-Vivy-Fluorite-Eyes-Song-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.png" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Vivy: Fluorite Eye's Song Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+</ul>
+</main>
+</div>
+</div>
+</div></div>
+
+<!-- Posts -->
+<div class='section' id='Blog'><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='Body'>
+<div class='Container'>
+<main class='Main'>
+<ul class="ListAnimes AX Rows A03 C02 D02">
+<div class='Body'>
+<div class='Container'>
+<h1 style='color:#bbb;font-weight: bolder;'>W</h1>
+<hr style='height:5px;background-color:#fff;'/>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/08/wonder-egg-priority-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-_JaO3UEHTVg/YRMfwPHHPoI/AAAAAAAAEBw/jhrzkG5wc9cphsJ-43yBN5GKjqBOJqx2wCLcBGAsYHQ/w283-h400/Descargar-Wonder-Egg-Priority-MEGA-MEDIAFIRE-HD-Sub-Espanol-Latino-Online-RivAnimation.png" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Wonder Egg Priority Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+</ul>
+</main>
+</div>
+</div>
+</div></div>
+
+<!-- Posts -->
+<div class='section' id='Blog'><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='Body'>
+<div class='Container'>
+<main class='Main'>
+<ul class="ListAnimes AX Rows A03 C02 D02">
+<div class='Body'>
+<div class='Container'>
+<h1 style='color:#bbb;font-weight: bolder;'>Y</h1>
+<hr style='height:5px;background-color:#fff;'/>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/01/yakusoku-no-neverland-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://www.tvhland.com/vignette/image/201811/5bf3fe38c721f.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Yakusoku no Neverland Temporada 1 Español Latino</h2>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/11/yuru-camp-español-latino.html">
+<span class="Estreno"><span>Estreno</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEj-3DLLT09zC7n3c2uQZ9UuAmYnwqpYT24XSjW8vMDitCbE5HdsrEkeh6gFyC8mjnImXSTakLXTS6xLNr0Pc53z81hQIBZ_lJYgwijepg6ogLk0l32Z6SsefsQSKGXPQTrUORQp1j_COkb9rS96FSLZH91I5BhuVQn3VskDrsbFxGzSx33K9-GTzoFz=w426-h640" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Yuru Camp△ Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+</ul>
+</main>
+</div>
+</div>
+</div></div>
+
+<!-- Posts -->
+<div class='section' id='Blog'><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='Body'>
+<div class='Container'>
+<main class='Main'>
+<ul class="ListAnimes AX Rows A03 C02 D02">
+<div class='Body'>
+<div class='Container'>
+<h1 style='color:#bbb;font-weight: bolder;'>Z</h1>
+<hr style='height:5px;background-color:#fff;'/>
+<li>
+<article class="Anime alt B">
+<a href="https://www.DAnimeWorld.com/2021/05/zero-no-tsukaima-temporada-1-español-latino.html">
+<span class="Estreno"><span style="background:#FF4000">Finalizado</span></span>
+<div class="Image fa-play-circle-o" style="background-color:#000">
+<figure>
+<img src="https://1.bp.blogspot.com/-GDHC4rWdxAA/YJxs9Fm42kI/AAAAAAAABSk/ObVY5aHvynMypn2jf-QYJ2F2nRTgwqn-QCLcBGAsYHQ/s16000/Descargar-Zero-no-Tsukaima-Temporada-1-Sub-Espanol-Latino-Online-RivAnimation.jpg" width="385" height="200">
+</figure>
+<span class="Type tv">Anime</span>
+</div>
+<h2 class="Title" style="color:#fff">Zero no Tsukaima (La Magia de Zero) Temporada 1 Español Latino</h2>
+</a>
+</article>
+</li>
+<div class="blog-pager container" id="blog-pager">
+</div>
+</ul>
+</main>
+</div>
+</div>
+</div></div>
+
+<style>
+body {
+  background-color: gray;
+}
+</style>
+
+
+</body>
+</html>
